@@ -5,7 +5,7 @@ header { background: rgba(0,0,0,.12); text-align: center; padding: 8em 4em 4em 4
     .im-looking-for { text-align: left; }
     .search-bar { margin: 3em 0; }
 article { padding: 3em; }
-    .badge { padding: .6em; }
+    .badge { padding: .5em; }
 footer { background: rgba(0,0,0,.13); padding: 3em;}
 
 .hide { display: none; visibility: hidden; }
