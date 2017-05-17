@@ -1,12 +1,12 @@
 div { borqqder: 1px solid red; }
 
-nav { background: rgba(0,0,0,.1); }
-header { background: rgba(0,0,0,.2) text-align: center; padding: 4em; }
+nav { background: rgba(0,0,0,.5); }
+header { background: rgba(0,0,0,.12); text-align: center; padding: 8em 4em 4em 4em; }
     .im-looking-for { text-align: left; }
     .search-bar { margin: 3em 0; }
 article { padding: 3em; }
     .badge { padding: .6em; }
-footer { rgba(0,0,0,.3) }
+footer { background: rgba(0,0,0,.13); padding: 3em;}
 
 .hide { display: none; visibility: hidden; }
 h3 { font-weight: 300; }
