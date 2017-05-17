@@ -1,0 +1,14 @@
+div { borqqder: 1px solid red; }
+
+nav { background: #eee; }
+header { background: #eee; text-align: center; padding: 4em; }
+    .im-looking-for { text-align: left; }
+    .search-bar { margin: 3em 0; }
+article { padding: 3em; }
+    .badge { padding: .6em; }
+footer { background: #eee; }
+
+.hide { display: none; visibility: hidden; }
+h3 { font-weight: 300; }
+
+article { padding: 4em; }
