@@ -93,6 +93,7 @@ h4, .h4 { font-size: 1.3em; line-height: 1.5; font-weight: 700; color: #aaa; }
 
 article h4 { margin-bottom: .1em; }
 .well h4 { color: #666; }
+
 .resources h4 { padding: 1em 0 0 0; margin: 1em 0 0 0; border: 1px solid #eee; border-width: 1px 0 0 0; color: #666; }
 .resources .well h4 { border: 1px solid #d9d9d9; border-width: 1px 0 0 0; }
 .resources h4.header { padding: 0; margin: 1em 0 0 0; border: 0; border-width: 0; }
