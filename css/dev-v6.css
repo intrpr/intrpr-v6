@@ -23,6 +23,9 @@ h3, .h3 {
 .classindex h3 small { line-height: .5rem; }
 h4, .h4 { font-size: 1.3em; line-height: 1.5; font-weight: 700; color: #aaa; letter-spacing: 0; }
 
+.lead { font-size: 1.5rem; line-height: 1.4; font-weight: 300; }
+
+
 .ident { height: 1rem; width: 100%; }
 .header-uvuasl { background: #334657; }
 .header-3310 { background: #F6511D; }
