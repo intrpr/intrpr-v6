@@ -15,6 +15,8 @@ body {
 }
 em { letter-spacing: normal; }
 
+/* a { color: #2B00F7; }*/
+
 .display-5 { color: rgba(255,255,255,.8); }
 
 h1, .h1 { letter-spacing: .02em; }
