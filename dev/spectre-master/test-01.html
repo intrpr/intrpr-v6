@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Layout - Spectre.css CSS Framework</title>
+    <link rel="stylesheet" href="css/spectre.css">
+    <link rel="stylesheet" href="css/spectre-icons.css">
+    <link rel="stylesheet" href="css/spectre-exp.css">
+    <link rel="stylesheet" href="css/docs.css">
+    <style>
+        dqqiv, lqqi {border: 1px solid #f00;}
+    </style>
+</head>
+
+<body>
+    <div class="docs-container off-canvas off-canvas-sidebar-show">
+        <div class="docs-navbar">
+            <a class="off-canvas-toggle btn btn-link btn-action" href="#sidebar">
+                <i class="icon icon-menu"></i>
+            </a>
+        </div>
+
+        <!-- Sidebar Navigation !-->
+        <div id="sidebar" class="docs-sidebar off-canvas-sidebar">
+            <div class="docs-brand">
+                <h2>intrpr.info</h2>
+            </div>
+            <div class="docs-nav">
+                <div class="accordion-container">
+                    <div class="accordion">
+                        <input type="checkbox" id="docs-accordion-0" name="docs-accordion-checkbox" hidden>
+                        <label class="accordion-header c-hand" for="docs-accordion-0">
+                            Syllabus
+                        </label>
+                    </div>
+                    <div class="accordion">
+                        <input type="checkbox" id="docs-accordion-1" name="docs-accordion-checkbox" hidden checked>
+                        <label class="accordion-header" for="docs-accordion-1">
+                            Schedule and Units
+                        </label>
+                        <div class="accordion-body">
+                            <ul class="menu menu-nav">
+                                <li class="menu-item">
+                                    <a href="getting-started.html">Class Schedule and Units</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="getting-started.html#installation">Contexting ‘work’ and de-personalizing feedback</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="getting-started.html#custom">What is transliteration?</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="getting-started.html#browsers">Manual codes for English (MCEs)</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="getting-started.html#whatsnew">Where would I use transliteration?</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="getting-started.html#whatsnew">Interlingual language development</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <input type="checkbox" id="docs-accordion-2" name="docs-accordion-checkbox" hidden>
+                        <label class="accordion-header c-hand" for="docs-accordion-2">
+                            Assignments
+                        </label>
+                        <div class="accordion-body">
+                            <ul class="menu menu-nav">
+                                <li class="menu-item">
+                                    <a href="elements.html">Typography</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="elements.html#tables">Tables</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="elements.html#buttons">Buttons</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <input type="checkbox" id="docs-accordion-3" name="docs-accordion-checkbox" hidden>
+                        <label class="accordion-header c-hand" for="docs-accordion-3">
+                            Classrooms
+                        </label>
+                        <div class="accordion-body">
+                            <ul class="menu menu-nav">
+                                <li class="menu-item">
+                                    <a href="layout.html">Flexbox grid</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="layout.html#responsive">Responsive</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="layout.html#navbar">Navbar</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <input type="checkbox" id="docs-accordion-4" name="docs-accordion-checkbox" hidden>
+                        <label class="accordion-header c-hand" for="docs-accordion-4">
+                            FAQs
+                        </label>
+                    </div>
+                    <div class="accordion">
+                        <input type="checkbox" id="docs-accordion-5" name="docs-accordion-checkbox" hidden>
+                        <label class="accordion-header c-hand" for="docs-accordion-5">
+                            Contact
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="off-canvas-overlay" href="#close"></a>
+
+        <div id="content" class="docs-content off-canvas-content">
+
+            <!-- Navbar !-->
+            <div class="columns container hide-lg">
+                    <div class="input-group input-inline">
+                    <input class="form-input" type="text" placeholder="search">
+                    <button class="btn btn-primary input-group-btn">Search</button>
+                </div>
+            </div>
+
+            <div id="class-title" class="container">
+                <h1 class="s-title"><a href="#class-title" class="anchor" aria-hidden="true">#</a>Transliteration</h1>
+                <h2>ASL3380</h2>
+                <img class="img-responsive" src="http://thephilanews.s3.amazonaws.com/wp-content/uploads/2012/12/Gallaudet-University-Widening-Horizons-for-the-Deaf.jpg" alt="..." width="100%">
+            </div>
+
+            <div id="about" class="container">
+                <h3 class="s-title"><a href="#about-this-course" class="anchor" aria-hidden="true">#</a>About This Course</h3>
+                <p class="text-large">This course is an introduction to the process and skills required to produce bidirectional English-bound signing-to-spoken English language transliterations between Deaf and nondeaf people. Upon successful completion of this course, students will demonstrate they can:</p>
+                <ol>
+					<li><strong>incorporate</strong> practical applications of non-judgmental language (Colonomos, Witter-Merrithew, et al.) in evaluating personal and colleague work product <em>(professionally talk about our work)</em></li>
+					<li>from critical reading of published field-related literature, <strong>synthesize</strong> a definition of transliteration in the signed language interpreting profession <em>(define transliteration)</em></li>
+					<li>though these readings and class discussion, <strong>identify</strong> various historical perspectives about the development of transliteration in the signed language interpreting profession <em>(understand transliteration’s genesis, application, and benefit)</em></li>
+					<li><strong>identify</strong> and <strong>incorporate</strong> a best-practice taxonomy of personal and skill-based competencies and processes required to produce signed-to-spoken language and spoken language-to-signed transliterations, including a review of <a href="https://www.urmc.rochester.edu/deaf-wellness-center/demand-control-schema.aspx">demand-control schema (DC-S)</a>-based choices in the transliteration process <em>(identify what skills are required)</em></li>
+					<li><strong>demonstrate</strong> and <strong>self-monitor</strong> abilities required to produce equivalent sign-to-spoken language transliterations of rehearsed and/or spontaneous texts <em>(produce equivalent work)</em>:
+                        <ul>
+							<li>demonstrate equivalent and professional usage of spoken English in target language (tL) transliterations <em>(signed language-to-voice)</em></li>
+                            <li>demonstrate competent and professional usage of various English-bound signed languages and manual codes (MCEs) in target language (tL) transliterations <em>(voice-to-signed language)</em></li>
+                            <li>recognize and produce equivalent transliterations given variations in features and parts of message (register, tone, affect, voice, power/less language)</li>
+                            <li>recognize and properly address transliteration difference in various genres (comedy, dramatic, educational, age-appropriate, academic, narrative, legal, medical, literary/poetic, religious, entertainment, etc.</li>
+                            <li>identify impacts on and incorporation of semantic choice, register, and ethical behavioral decisions in transliterations</li>
+                        </ul>
+                    </li>
+                </ol>
+                <p>A significant portion of this course requires self-directed efforts (a/sychronously working with other colleagues) and fairly good command of web-based technologies and learning environments (video creation, salient discussion and reporting skills; we’ll discuss this more in class).</p>
+                <p><strong>This course requires a one-hour per week lab criteria</strong>; students should expect to spend at least an hour a week on skill-building exercises in a language laboratory setting.</p>
+
+                <ul id="tag-1" class="tab tab-block filter-tag">
+                    <li class="tab-item active">
+                        <a href="#">Filetypes</a>
+                    </li>
+                    <li class="tab-item">
+                        <a href="#">Published course descriptions</a>
+                    </li>
+                    <li class="tab-item">
+                        <a href="#">What others have said</a>
+                    </li>
+                </ul>
+                <div class="filter">
+                    <input type="radio" id="tag-1" class="filter-tag" name="filter-radio" hidden checked>
+                    <input type="radio" id="tag-2" class="filter-tag" name="filter-radio" hidden>
+                    <input type="radio" id="tag-3" class="filter-tag" name="filter-radio" hidden>
+
+                    <div class="filter-nav">
+                        <label class="chip" for="tag-1">Filetypes</label>
+                        <label class="chip" for="tag-2">Published course descriptions</label>
+                        <label class="chip" for="tag-3">What others have said</label>
+                    </div>
+
+                    <div class="filter-body">
+                        <div class="filter-item card" data-tag="tag-1">
+                            <p><strong>Note</strong>: All downloadable files — class notes, syllabi, and other handouts — are saved in <abbr>PDF</abbr> formats and require Adobe Acrobat Reader. If the computer you are using does not have Acrobat or the Acrobat browser plugin, <a href="http://www.adobe.com/products/acrobat/readstep2.html">you can download it free</a>.</p>
+                        </div>
+                        <div class="filter-item card" data-tag="tag-2">
+                            <div class="panel">
+                                <div class="panel-header">
+                                    <div class="panel-title">Published Course Description and Prerequisites</div>
+                                </div>
+                                <div class="panel-body">
+                                    <p>In keeping with a January 2016 request from the University’s Department of Languages and Cultures, <a href="http://www.uvu.edu/catalog/current/courses/american-sign-language/#ASL-3380">the original course description and prerequisites</a> are listed below. The learning objectives at left/above on this site/page are expansions and clarifications of the original expectations:</p>
+                                    <p>“Prerequisite: [Completion of] ASL3310 and University Advanced Standing. 3:3:1 [three semester credits; three weekly contact hours and one lab hour]. Introduces students to skills and processes required to produce conceptually accurate and linguistically appropriate messages using ASL signs in an English word order. Develops cognitive, semantic, and dual tasking abilities required to interpret spontaneous texts. Teaches and incorporates more advanced semantic choices and negotiation techniques, work with a variety of audience sizes and types. Helps students better understand how ethics impact behavioral decisions and interpretations. Gives more consideration to developing sets of technical or field-specific signs and applying these to interpretative work. Includes one-hour per week lab. Lab access fee of $10 applies.</p>
+                                    <p>“Upon successful completion, students should be able to:</p>
+                                    <ul>
+                                        <li>In real time, analyze and begin encoding source language for production in the target language.</li>
+                                        <li>With correct pronunciation, conceptual accuracy, and, using the culture of the source language as a driver, accurately express messages in the target linguistic order in a smooth and comprehensible fashion.</li>
+                                        <li>Have a greater understanding of the impact of physical and psychological factors on the interpreting interaction.</li>
+                                        <li>Demonstrate and understanding of the impact of the Code of Ethics on interpreting decisions.</li>
+                                        <li>Accurately receive and comprehend more advanced messages.</li>
+                                        <li>Demonstrate command of a sizeable lexicon of technical and field-specific terms.”</p>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-item card" data-tag="tag-3">
+                            Other stuff goes There
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="course-syllabus" class="container">
+                    <h1 class="s-title"><a href="#course-syllabus" class="anchor" aria-hidden="true">#</a>Course Syllabus</h1>
+                </div>
+
+                <div id="instructor-and-class-times" class="container">
+                    <h3 class="s-title"><a href="#instructor-and-class-times" class="anchor" aria-hidden="true">#</a>Instructor and class times</h3>
+                    <p>
+                        Instructor: Doug Stringham<br>
+                        Class Period: TR 7:00 – 8:15 pm, LA 002<br>
+                        E-mail: dstringham (at) gmail.com
+                    </p>
+                    <p>(You may contact me at any time via e-mail or by arranging a meeting time before or after class. Please no phone calls.)</p>
+                </div>
+
+                <div id="required-texts" class="container">
+                    <h3 class="s-title"><a href="#required-texts" class="anchor" aria-hidden="true">#</a>Required texts</h3>
+                    <p>Please bring your text, handouts, and notetaking materials to class each day.</p>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div id="work-evaluated" class="container">
+                    <h3 class="s-title"><a href="#work-evaluated" class="anchor" aria-hidden="true">#</a>How is my work evaluated? (or, in other words, “How do I get an A?”)</h3>
+                    <div class="card">
+                        <div class="card-body bg-error">
+                            Please note: This is a skill-based class; final grades are based on your 1) participation and 2) your demonstrated signing acumen and ability; this is a main reason for having a pre- and post-/final assessment. Yes, we spend time learning about contemporary transliteration theory and yes, you should implant that in your archival memory.<br><br>Your final grade, however, is not based on your perception of nor what you think about your acumen and ability, it is based on your demonstrated ability to produce equivalent transliteration work.
+                        </div>
+                    </div>
+                    <p>Please bring your text, handouts, and notetaking materials to class each day.</p>
+                    <ul>
+                        <li>scores on all of the submitted assignments and exams</li>
+                        <li>considering assessed performance on your student-teacher contract.</li>
+                        <li>class participation (team presentations/discussions, in-class engagement, and accountability; ‘in-class participation’ does not constitute coming to class and sitting, unengaged, for 75 minutes)</li>
+                    </ul>
+                    <p>More importantly, you should remember that making decisions in interpreting and transliteration situations or producing transliterations is really all about efficient and fluent problem solving: identifying and then applying knowledge to resolve semantic and communicative problems.</p>
+                    <p>Transliteration is largely a skill-based course; grades are based on demonstrated acumen and ability, not how well you think you transliterate and/or your knowledge about transliteration.</p>
+                    <p>While some portions of your coursework and exams may test for specific factual who-when-where information (‘remembering’ skills), far less important is your ability to regurgitate facts and figures. Instead, assignments, labs, and assessments are designed to identify how well you internalize principles, cultural and technical knowledge, and process understanding, and then apply them to create solutions to various situations (‘applying’ and ‘analyzing’ skills). Learn more about higher-level learning at the FAQs page.</p>
+                    <p>Scoring criteria are clearly defined on assignment handouts or exams; you’ll know what you need to do to earn the grade you want. Ultimately, your grade is a reflection of personal effort and internalization of concepts learned in the course.</p>
+                </div>
+
+                <div id="grading-breakdown" class="container">
+                    <h3 class="s-title"><a href="#grading-breakdown" class="anchor" aria-hidden="true">#</a>Grading breakdown</h3>
+                    <table class="table">
+                        <tr>
+                            <td>A 100–93</td>
+                            <td>B+ 89–87</td>
+                            <td>C+ 79–77</td>
+                            <td>D+ 69–67</td>
+                            <td>E 59–0</td>
+                        </tr>
+                        <tr>
+                            <td>A- 92–90</td>
+                            <td>B 86–83</td>
+                            <td>C 76–73</td>
+                            <td>D 66–63</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>B- 82–80</td>
+                            <td>C- 72–70</td>
+                            <td>D- 62–60</td>
+                            <td></td>
+                        </tr>
+                    </table>
+
+                    <div id="college-policies" class="container">
+                        <h3 class="s-title"><a href="#college-policies" class="anchor" aria-hidden="true">#</a>College Policies and Students with Disabilities</h3>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+
+                    <div id="course-requirements-expectations" class="container">
+                        <h3 class="s-title"><a href="#course-requirements-expectations" class="anchor" aria-hidden="true">#</a>Course Requirements and Expectations</h3>
+                        <p>These are the instructor’s expectations of you:</p>
+                        <ol>
+                            <li>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                        <p></p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li><span class="label label-error" style="font-size: 90%;">Spring 2018</span> Full disclosure: I may have out-of-state <strong>travel responsibilities</strong> I am required to fulfill this semester. I will inform you about these absences and we will work out contingencies. Thank you in advance for your patience.</li>
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <footer class="docs-footer container">
+                <div class="columns col-oneline">
+                    <div class="column col-6">
+                        <div class="columns col-oneline">
+                            <div class="column col-3">uvuds</div>
+                            <div class="column col">
+                                <ul class="nav">
+                                    <li><a href="https://www.uvu.edu/profpages/profiles/show/user_id/4351">Doug Stringham</a></li>
+                                    <li><a href="https://www.uvu.edu/lang/asl/">American Sign Language &#38; Deaf Studies</a></li>
+                                    <li><a href="https://www.uvu.edu">Utah Valley University</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column col-6">
+                        <div class="columns col-oneline">
+                            <div class="column col-4">
+                                <ul class="nav">
+                                    <li>dstringham [at] gmail.com</li>
+                                    <li><a href="http://twitter.com/stringd">Twitter</a></li>
+                                    <li><a href="http://linkedin.com/in/dstringham">LinkedIn</a></li>
+                                    <li><a href="http://www.slideshare.net/dstringham">Slideshare</a></li>
+                                    <li><a href="https://speakerdeck.com/dstringham">SpeakerDeck</a></li>
+                                </ul>
+                            </div>
+                            <div class="column col-4">
+                                <h6>Courses</h6>
+                                <ul class="nav">
+                                    <li><a href="3310/">ASL 3310</a></li>
+                                    <li><a href="3330/">ASL 3330</a></li>
+                                    <li><a href="3350/">ASL 3350</a></li>
+                                    <li><a href="3360/">ASL 3360</a></li>
+                                    <li><a href="3370/">ASL 3370</a></li>
+                                    <li><a href="3380/">ASL 3380</a></li>
+                                    <li><a href="439R/">ASL 439R</a></li>
+                                    <li><a href="about.html">About this Site</a></li>
+                                </ul>
+                            </div>
+                            <div class="column col-4">
+                                <h6>Related Content Links</h6>
+                                <ul class="nav">
+                                    <li><a href="https://del.icio.us/dsasl">del.icio.us/dsasl</a></li>
+                                    <li><a href="http://www.uvu.edu/lang/asl/dst">Deaf Studies <em>Today</em>!</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="outline: 0; margin: 0 1em 1em 0;" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+                <p>This site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 United States License</a>. This license grants you permission to share (copy, distribute, and transmit the work) and remix (to adapt the work) under certain conditions and understandings. This license <em>does not</em> apply, however, to work claimed by other authors and producers. Additionally, every intent has been made to make materials available via “Fair Use,” (§107 to 118, Title 17, US Code); the content and downloadable materials on the pages of this Web site are solely for the benefit of the students enrolled in these courses. Designed and built with <span class="text-error">♥</span> by <a href="https://twitter.com/stringd">Doug Stringham</a>.</p>
+                <p>Version <span class="version"></span>. Page last updated: <strong>August 22, 2017</strong></p>
+            </footer>
+
+        </div>
+    </div>
+
+    <script>
+    </script>
+
+</body>
+</html>
