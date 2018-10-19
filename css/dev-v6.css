@@ -7,9 +7,9 @@ dqqiv { border: 1px solid red; }
 
 body {
 	font-family: "Open Sans", "Libre Franklin", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-size: 18px;
-	line-height: 1.65;
-	color: rgba(0,0,0,.75);
+	font-size: 19px;
+	line-height: 1.6;
+	color: rgba(0,0,0,.7);
 	background-color: #fff;
 	margin: 0;
 	font-weight: 300;
@@ -19,7 +19,7 @@ em {  }
 strong { font-weight: bold; }
 mark { color: inherit; }
 
-/* a { color: #2B00F7; }*/
+a { color: rgb(52, 91, 181); color: rgb(255, 82, 80); font-weight: 600; }
 
 
 h1, .h1 {
@@ -72,7 +72,7 @@ li {}
 	.article li { margin: 0 0 .5em 0; }
 
 .lead {
-	font-size: 1.35rem;
+	font-size: 120%;
 	line-height: 1.5;
 	letterqq-spacing: .015em;
 }
