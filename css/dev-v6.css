@@ -1,14 +1,14 @@
 /*! Fontstack */
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100,300,500,700');
+@imqqport url('https://fonts.googleapis.com/css?family=Libre+Franklin:100,300,500,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i');
 
 
-dqqiv { border: 1px solid red; }
+qqdiv { border: 1px solid red; }
 
 body {
 	font-family: "Open Sans", "Libre Franklin", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	fontqq-size: 19px;
-	font-size: calc( 14px + 8 * ((100vw - 500px) / 1500)); /* magic font size from https://css-tricks.com css */
+	font-size: calc( 15px + 8 * ((100vw - 500px) / 1500)); /* magic font size from https://css-tricks.com/snippets/css/fluid-typography/ css */
 	line-height: 1.6;
 	color: rgba(0,0,0,.7);
 	background-color: #fff;
@@ -41,7 +41,7 @@ h1, .h1 {
 h2, .h2 {}
 
 h3, .h3 {
-	font-size: 1.4em;
+	fontqq-size: 1.4em;
 	line-height: 1.3;
 	font-weight: 600;
 	letterqq-spacing: .02em;
@@ -51,7 +51,7 @@ h3, .h3 {
 	.classindex h3 { margin: 1rem 0 .5rem 0; }
 
 h4, .h4 {
-	font-size: 1.3em;
+	fontqq-size: 1.3em;
 	line-height: 1.3;
 	font-weight: 600;
 	coqqlor: #999;
@@ -59,7 +59,7 @@ h4, .h4 {
 }
 
 h6, .h6 {
-	font-size: .8em;
+	fontqq-size: .8em;
 	line-height: 1.55;
 	font-weight: 300;
 	hyphens: auto;
