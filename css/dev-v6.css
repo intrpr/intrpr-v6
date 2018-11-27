@@ -1,5 +1,5 @@
 /*! Fontstack */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,200i,400,400i,600,600i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i');
 @import url('https://fonts.googleapis.com/css?family=Warnes');
 
 body {
@@ -24,12 +24,13 @@ a:hover { color: rgba(0,60,126,1); }  /* user hovers  */
 
 h1, .h1 {
 	font-size: 250%;
-	line-height: 1.2;
+	line-height: 1.18;
 	margin: 0 0 .25em 0; 
 	letterqq-spacing: -.015em;
+	font-weight: normal;
 }
 	header h1 {
-		font-weight: 200;
+		font-weight: normal;
 		margin: 0 0 .7em 0;
 	}
 
