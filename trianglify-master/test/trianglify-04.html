@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trianglify basic example</title>
+	<style>
+		#something, #other {
+			height: 30vw;
+			width: 100vw;
+			filter: grayscale(1);
+			filqqter: saturate(.7);
+			opacity: .5;
+			}
+		.header { background: blue;}
+		.header-uvuasl { background: #334657; }
+		.header-3310 { background: #F6511D; }
+		.header-3330 { background: #FFB400; }
+		.header-3350 { background: #00c2e0; }
+		.header-3360 { background: #ff78cb; }
+		.header-3370 { background: #7FB800; }
+		.header-3380 { background: #c377e0; }
+		.header-439R { background: #0079bf; }
+
+	</style>
+	</head>
+	<body>
+			<div class="header-3330">
+				<div id="something"></div>
+			</div>
+
+			<div class="header-3380">
+				<div id="other"></div>
+			</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
+		<script>
+			function addTriangleTo(target) {
+				var dimensions = target.getClientRects()[0];
+				var pattern = Trianglify({
+					width: dimensions.width, 
+					height: dimensions.height
+				});
+				target.style['background-image'] = 'url(' + pattern.png() + ')';
+			}
+
+			addTriangleTo(document.getElementById('something'));
+			addTriangleTo(document.getElementById('other'));
+	
+		</script>
+	</body>
+</html>

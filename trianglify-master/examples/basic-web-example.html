@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Trianglify basic example</title>
+		<style>
+		htqqml, boqqdy {
+			margin: 0 0;
+			padding: 0 0;
+			text-align: center;
+			font-size: 0;
+		}
+		#mycanvas { opacity: .8; width: 90vw; height: 50vw; background: blue; }
+		</style>
+	</head>
+	<body>
+
+		<div id="mycanvas"></div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.1.0/trianglify.min.js"></script>
+		<script>
+			var pattern = Trianglify({
+				width: window.innerWidth,
+				height: window.innerHeight
+			});
+			document.body.appendChild(pattern.canvas())
+			pattern.canvas(document.getElementById('mycanvas'));
+
+		</script>
+	</body>
+</html>
