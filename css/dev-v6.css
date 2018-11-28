@@ -1,6 +1,6 @@
 /*! Fontstack */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i');
-@import url('https://fonts.googleapis.com/css?family=Warnes');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 body {
 	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -10,6 +10,7 @@ body {
 	backgrqqound-color: #fff;
 	margin: 0;
 }
+h1,h2,h3,h4,h5,h6,p,li,dt,dd { }
 
 strong { font-weight: 600; coqqlor: rgba(0,0,0,.9); }
 mark { color: inherit; }
@@ -20,6 +21,7 @@ small { font-size: 75%; font-weight: inherit; opacity: .6; }
 a { font-weight: 600; text-decoration: none; }
 a:link, a:active { color: rgba(0,123,255,1); }  /* unvisited links */
 a:hover { color: rgba(0,60,126,1); }  /* user hovers  */
+header a, nav a { font-weight: normal; }
 
 
 h1, .h1 {
@@ -69,13 +71,14 @@ h6, .h6 {
 	font-weight: 300;
 	hyphens: auto;
 }
+figcaption { font-size: .75em; font-style: italic; }
 
 dt { font-weight: 700; }
 
 p, dd { margin: 0 0 1em 0; }
 
 li {}
-	.article li { margin: 0 0 .5em 0; }
+	article li { margin: 0 0 .5em 0; }
 
 .lead {
 	font-size: 120%;
@@ -113,7 +116,7 @@ svg { fill: currentColor; }
 
 
 nav { background: rgba(0,0,0,1); boxqq-shadow: 0 20px 35px rgba(0,0,0,.1); }
-	.navbar-brand { font-weqqight: 700; font-family: "Warnes"; }
+	.navbar-brand { font-weight: normal; font-family: "Pacifico"; font-size: 135%; letter-spacing: .03em; }
 /*
 	.navbar a { color: rgba(255,255,255,.7); }
 	.navbar-toggler-right { right: -3.25rem; }
